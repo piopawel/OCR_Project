@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">ProjektPR</string>
+    <string name="action_settings">Settings</string>
+    <string name="image_dialog_description">Image Preview</string>
+    <string name="help">
+        Witamy w aplikacji LekoInfo. \n
+        Aby sprwadzić dane o leku naciśnij przycisk sprawdź lek. \n
+        Zrób zdjęcie nazwy leku, mieszcząc ją wewnątrz czerwonego prostokąta.\n
+        Naciśnij przycisk wyślij, aby otrzymać informacje o leku. \n
+        Aby dodać nowy lek do bazy wybierz "dodaj lek do bazy" . \n
+        Następnie wypełni niezbędne informacje i naciśnij wyślij.
+    </string>
+</resources>

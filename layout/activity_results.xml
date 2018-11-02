@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_results"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="piotrek.projektpr.Results">
+
+    <TextView
+        android:text="Nazwa :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/nameResult"
+        android:textSize="24sp" />
+
+    <TextView
+        android:text="Dawka :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/doseResult"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:text="Producent :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/producerResult"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:text="Cena :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/priceResult"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:text="Substancja :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/substanceResult"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:text="Opakowanie :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/packingResult"
+        android:textSize="24sp"/>
+
+    <TextView
+        android:text="Refundacja :"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/refundResult"
+        android:textSize="24sp"/>
+
+    <Button
+        android:text="Wróć do Menu Głównego"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/button"
+        android:onClick="goBack"/>
+</LinearLayout>
